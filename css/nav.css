@@ -1,0 +1,30 @@
+.nav_bar {
+    display: flex;
+    font-size: .8rem;
+} 
+
+nav {
+    list-style: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 5) ; 
+}
+
+nav ul {
+    display: inline-flex;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    background-color: bisque;
+}
+
+nav ul li{
+    flex:1;
+    display: inline;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
